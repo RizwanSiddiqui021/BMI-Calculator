@@ -1,7 +1,12 @@
 import "./App.css";
+import BMICalculator from "./Components/BMICalculator";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <BMICalculator></BMICalculator>
+    </>
+  );
 }
 
 export default App;
